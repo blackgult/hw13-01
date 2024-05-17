@@ -33,6 +33,7 @@
 sudo nmap -sV 192.168.0.250
 
 Информация о том, какие службы разрешены:
+
 ![1-1](https://github.com/blackgult/hw13-01/blob/main/1-1.PNG)
 
 
@@ -43,9 +44,13 @@ sudo nmap -sV 192.168.0.250
 Были найдены уязвимости сразу с прямыми сслыками, например следующие:
 
 |     	SSV:78173	7.8	https://vulners.com/seebug/SSV:78173	*EXPLOIT*
+
 |     	SSV:69983	7.8	https://vulners.com/seebug/SSV:69983	*EXPLOIT*
+
 |     	EDB-ID:24450	7.8	https://vulners.com/exploitdb/EDB-ID:24450	*EXPLOIT*
+
 |     	EDB-ID:15215	7.8	https://vulners.com/exploitdb/EDB-ID:15215	*EXPLOIT*
+
 
 ![1-2](https://github.com/blackgult/hw13-01/blob/main/1-2.PNG)
 
