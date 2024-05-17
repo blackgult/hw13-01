@@ -71,5 +71,38 @@ sudo nmap -sV 192.168.0.250
 
 ### Решение 2
 
+Сканирование Metasploitable в режиме SYN:
+
+![2-1](https://github.com/blackgult/hw13-01/blob/main/2-1.PNG)
+
+Запись сеанса сканирования в Wireshark:
+
+![2-2](https://github.com/blackgult/hw13-01/blob/main/2-2.PNG)
+
+Сканирование Metasploitable в режиме FIN:
+
+![2-3](https://github.com/blackgult/hw13-01/blob/main/2-3.PNG)
+
+Запись сеанса сканирования в Wireshark:
+
+![2-4](https://github.com/blackgult/hw13-01/blob/main/2-4.PNG)
+
+Сканирование Metasploitable в режиме Xmas:
+
+![2-5](https://github.com/blackgult/hw13-01/blob/main/2-5.PNG)
+
+Запись сеанса сканирования в Wireshark:
+
+![2-6](https://github.com/blackgult/hw13-01/blob/main/2-6.PNG)
+
+Сканирование Metasploitable в режиме UDP:
+
+![2-7](https://github.com/blackgult/hw13-01/blob/main/2-7.PNG)
+
+Запись сеанса сканирования в Wireshark:
+
+![2-8](https://github.com/blackgult/hw13-01/blob/main/2-8.PNG)
+
 - Чем отличаются эти режимы сканирования с точки зрения сетевого трафика?
+
 - Как отвечает сервер?
