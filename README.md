@@ -32,6 +32,7 @@
 
 Я использовал команду:
 sudo nmap -sV 192.168.0.250
+
 ![1-1](https://github.com/blackgult/hw13-01/blob/main/1-1.PNG)
 
 
