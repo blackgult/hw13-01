@@ -28,12 +28,23 @@
 ### Решение 1
 
 - Какие сетевые службы в ней разрешены?
-- Какие уязвимости были вами обнаружены? (список со ссылками: достаточно трёх уязвимостей)
 
 Я использовал команду:
 sudo nmap -sV 192.168.0.250
 
+Информация о том, какие службы разрешены:
 ![1-1](https://github.com/blackgult/hw13-01/blob/main/1-1.PNG)
+
+
+- Какие уязвимости были вами обнаружены? (список со ссылками: достаточно трёх уязвимостей)
+
+Полный вывод команды sudo nmap -sV --script vulners 192.168.0.250 вот здесь -->
+
+Список уязвимостей с сайта https://www.exploit-db.com/ следующий:
+
+vsftpd 2.3.4 - Backdoor Command Execution https://www.exploit-db.com/exploits/49757
+vsftpd 2.3.4 - Backdoor Command Execution (Metasploit) https://www.exploit-db.com/exploits/17491
+
 
 
 ### Задание 2
